@@ -1,0 +1,51 @@
+.App {
+  text-align: center;
+}
+@media (min-width: 480px) {  
+.App-logo {
+  float: left;
+  height: 50px;
+  text-align: center;
+}
+
+.App-header {
+  background-color:#2EF09C;
+  height: 80px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-family: Tosca;
+  color: #DB462F;
+  font-size: 2.5em;
+  text-align: left;
+  
+}
+
+.App-intro {
+  font-size: large;
+}
+}
+@media (max-width: 480px) {  
+  .App-logo {
+    float: left;
+    height: 25px;
+  }
+  .App-title {
+    font-family: Tosca;
+    color: #DB462F;
+    font-size: 1.1em;
+    text-align: left;
+  } 
+  .App-header {
+    background-color:#2EF09C;
+    height: 60px;
+    padding: 20px;
+    color: white;
+  }
+
+}
+ 
+
+ 
